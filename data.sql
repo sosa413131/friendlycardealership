@@ -38,7 +38,7 @@ VALUES ('Billboard', TO_DATE('2021-09-11','YYYY-MM-DD'), 10000.98,6,'Edgar Allan
 INSERT INTO CarCustomer (custId, custEmail, firstName, lastName, street,city, state, zip, phoneArea,  phoneNumber, driveLicenseNo, adSeen  )
  VALUES ('c001','dp@cowboys.com', 'Dakota', 'Prescott', '1 ATT Way', 'Arlington','TX', '76011', 817, 8924161, 'd001', 'Billboard');
 
- INSERT INTO CarCustomer (custId, firstName, lastName, street,city, state, zip, phoneArea,  phoneNumber, driveLicenseNo, adSeen  )
+ INSERT INTO CarCustomer (custId,  custEmail, firstName, lastName, street,city, state, zip, phoneArea,  phoneNumber, driveLicenseNo, adSeen  )
  VALUES ('c002', 'tb@buccaneers.com','Tom', 'Brady', '4201 N Dale Mabry Hwy', 'Tampa','FL', '33607', 813, 3506500, 'd002', 'Print Media');
 
  INSERT INTO CarCustomer (custId,  custEmail, firstName, lastName, street,city, state, zip, phoneArea,  phoneNumber, driveLicenseNo, adSeen  )
