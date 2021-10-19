@@ -35,20 +35,20 @@ VALUES ('Billboard', TO_DATE('2021-09-11','YYYY-MM-DD'), 10000.98,6,'Edgar Allan
 
 -- CarCustomer 
 
-INSERT INTO CarCustomer (custId, firstName, lastName, street,city, state, zip, phoneArea,  phoneNumber, driveLicenseNo, adSeen  )
- VALUES ('c001', 'Dakota', 'Prescott', '1 ATT Way', 'Arlington','TX', '76011', 817, 8924161, 'd001', 'Billboard');
+INSERT INTO CarCustomer (custId, custEmail, firstName, lastName, street,city, state, zip, phoneArea,  phoneNumber, driveLicenseNo, adSeen  )
+ VALUES ('c001','dp@cowboys.com', 'Dakota', 'Prescott', '1 ATT Way', 'Arlington','TX', '76011', 817, 8924161, 'd001', 'Billboard');
 
  INSERT INTO CarCustomer (custId, firstName, lastName, street,city, state, zip, phoneArea,  phoneNumber, driveLicenseNo, adSeen  )
- VALUES ('c002', 'Tom', 'Brady', '4201 N Dale Mabry Hwy', 'Tampa','FL', '33607', 813, 3506500, 'd002', 'Print Media');
+ VALUES ('c002', 'tb@buccaneers.com','Tom', 'Brady', '4201 N Dale Mabry Hwy', 'Tampa','FL', '33607', 813, 3506500, 'd002', 'Print Media');
 
- INSERT INTO CarCustomer (custId, firstName, lastName, street,city, state, zip, phoneArea,  phoneNumber, driveLicenseNo, adSeen  )
- VALUES ('c003', 'Josh', 'Allan', '1 Bills drive', 'Orchard Park','NY', '14127', 817, 8924161, 'd003', 'Radio');
+ INSERT INTO CarCustomer (custId,  custEmail, firstName, lastName, street,city, state, zip, phoneArea,  phoneNumber, driveLicenseNo, adSeen  )
+ VALUES ('c003', 'ja@bills.com','Josh', 'Allan', '1 Bills drive', 'Orchard Park','NY', '14127', 817, 8924161, 'd003', 'Radio');
 
- INSERT INTO CarCustomer (custId, firstName, lastName, street,city, state, zip, phoneArea,  phoneNumber, driveLicenseNo, adSeen  )
- VALUES ('c004', 'Lamar', 'Jackson', '1101 Russell Street', 'Baltimore','MD', '21230', 817, 8924161, 'd004', 'TV Commercial');
+ INSERT INTO CarCustomer (custId,  custEmail, firstName, lastName, street,city, state, zip, phoneArea,  phoneNumber, driveLicenseNo, adSeen  )
+ VALUES ('c004', 'lj@ravens.com','Lamar', 'Jackson', '1101 Russell Street', 'Baltimore','MD', '21230', 817, 8924161, 'd004', 'TV Commercial');
 
- INSERT INTO CarCustomer (custId, firstName, lastName, street,city, state, zip, phoneArea,  phoneNumber, driveLicenseNo, adSeen  )
- VALUES ('c005', 'Patrick', 'Mahomes', '1 Arrowhead Drive', 'Kansas City','MO', '64129', 817, 8924161, 'd005', 'Billboard');
+ INSERT INTO CarCustomer (custId, custEmail,  firstName, lastName, street,city, state, zip, phoneArea,  phoneNumber, driveLicenseNo, adSeen  )
+ VALUES ('c005', 'pm@chiefs.com', 'Patrick', 'Mahomes', '1 Arrowhead Drive', 'Kansas City','MO', '64129', 817, 8924161, 'd005', 'Billboard');
 
 --  CarNewCar 
 

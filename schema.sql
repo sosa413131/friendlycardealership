@@ -16,6 +16,7 @@ ALTER TABLE CarAd ADD CONSTRAINT CarAd_placedIn_initialDate_pk PRIMARY KEY (plac
 
 CREATE TABLE CarCustomer (
 	custId VARCHAR2(255) NOT NULL,
+	custEmail VARCHAR2(255),
 	firstName VARCHAR2(255) NOT NULL,
 	lastName VARCHAR2(255) NOT NULL,
 	street VARCHAR2(255),
