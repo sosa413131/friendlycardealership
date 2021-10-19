@@ -1,6 +1,6 @@
 -- Indices for foreign keys et. al.
 
-CREATE INDEX CarNewCar_Options_VIN_index ON CarNewCar_Options (VIN);
+CREATE INDEX CarNewCar_Options_VIN_index ON CarNewCar_Options (VIN); 
 CREATE INDEX CarNewCar_Options_carOption_index ON CarNewCar_Options (carOption);
 CREATE INDEX CarUsedCarFeatures_VIN_index ON CarUsedCarFeatures(VIN)
 CREATE INDEX CarSale_custId_index ON CarSale (custId);
@@ -270,3 +270,20 @@ VALUES ('i004', '22 inch chrome wheels');
 
 INSERT INTO CarSale_CustomItem (invoiceNo, customItem) 
 VALUES ('i004', 'Flood lights');
+
+--  CarSurvey
+
+INSERT INTO CarSurvey (surveyNumber, dealershipRating, carRating, salespersonRating, invoiceNo)
+VALUES ('s001', 5, 5, 5, 'i005');
+
+INSERT INTO CarSurvey (surveyNumber, dealershipRating, carRating, salespersonRating, invoiceNo)
+VALUES ('s002', 4, 4, 4, 'i004');
+
+INSERT INTO CarSurvey (surveyNumber, dealershipRating, carRating, salespersonRating, invoiceNo)
+VALUES ('s003', 3, 3, 3, 'i003');
+
+INSERT INTO CarSurvey (surveyNumber, dealershipRating, carRating, salespersonRating, invoiceNo)
+VALUES ('s004', 2, 2, 2, 'i002');
+
+INSERT INTO CarSurvey (surveyNumber, dealershipRating, carRating, salespersonRating, invoiceNo)
+VALUES ('s005', 1, 1, 1, 'i001');
